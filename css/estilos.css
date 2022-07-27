@@ -1,0 +1,236 @@
+/*.blue{
+    background-color: blue;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-fluid{
+    margin: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+h1{
+    color: blue;
+    margin-top: 10px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+header{
+    grid-area: header;
+}
+
+.galeriaGrid{
+    grid-area: galeria;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grillaGeneral{
+    
+    margin-bottom: 1.5em;
+    display: grid;
+    gap: 20px;
+    /*grid-template-areas:*/
+    /*"header"
+    "nav"
+    "contenido"
+    "sidebar"
+    /*"ad"
+    "galeria"
+    "footer"*/
+/*}
+
+.padre{
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 15px;
+}
+
+
+img:hover{
+    margin-top: 15px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition: all 2s;
+    transform: scale(1.2);
+    margin-top: 20px;
+}
+
+
+@media (min-width: 500px) {
+    
+    .grillaGeneral{
+        margin: 0;
+        grid-template-areas:
+        "header  header"
+        /*"nav     nav"
+        "galeria galeria"
+        "footer  footer";
+        grid-template-columns: 1fr 3fr;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-between; 
+    }
+
+    footer{
+        margin-top: 1.5px;
+        background: goldenrod
+    }
+}
+
+@media (min-width: 768px) {
+    .grillaGeneral{
+        margin-bottom: 1.5em;
+    }
+
+    header, h2{
+        color: black;
+    }
+
+    a{
+        color:darkgoldenrod;
+    }
+
+    .galeriaGrid{
+        background: white;
+    }
+    
+    .padre{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        margin: 3em;
+    }
+
+
+    footer{
+        margin-top: 1.5px;
+        background: goldenrod
+    }
+}
+
+@media (min-width: 1024px) {
+    body{
+        
+        background: white
+    }
+    .grillaGeneral{
+        color: goldenrod;
+    }
+    .padre{
+        padding: 1.5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        margin: 0;
+    }
+    img:hover{
+        transition-property: all;
+        transition-duration: 2s;
+        transition: all 2s;
+        transform: scale(1.2);
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 1.5px;
+        background: goldenrod
+    }
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+/*  font-family: 'Kristi', cursive;  */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap');
+/*  font-family: 'Dosis', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nombreNavbar{
+    font-family: 'Kristi', cursive;
+    font-size: xx-large;
+    color: blue;
+    text-decoration: none;
+}
+
+.footer p a{
+    text-decoration: none;
+    background-color: white;
+    color: white;
+}
+.card-body{
+    text-align: center;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: white;
+}
+.header{
+    background-color:blue;
+}
+
+.nav-item a{
+    color: blue;
+    text-decoration: none;
+}
+
+.galeriaGrid{
+    background: white;
+    background: white;
+}
+
+.padre{
+    background:white;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 3em;
+}
+
+img:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition: all 2s;
+    transform: scale(1.2);
+    margin-top: 20px;
+}
+
+.icono{
+    max-width: 32px;
+    height: auto;
+    margin: 5px;
+}
+
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}
+
+footer{
+    margin-top: 5px;
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: blue;
+}
